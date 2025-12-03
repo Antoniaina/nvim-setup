@@ -19,9 +19,9 @@ return {
 		})
 		mason_lspconfig.setup({
 			ensure_installed = {
-				"tsserver",    -- pour JS/TS
-				"rust_analyzer", -- Rust
-				"clangd",        -- C/C++
+				"tsserver",    
+				"rust_analyzer",
+				"clangd",       
 				"html",
 				"cssls",
 				"tailwindcss",
@@ -41,9 +41,8 @@ return {
 				"black",
 				"pylint",
 				"eslint_d",
-				"codelldb",     -- debug Rust/C++
-				"cpptools",     -- debug C/C++
-				"clang-format", -- formatter C/C++
+				"codelldb",     
+				"clang-format", 
 			},
 		})
 	end,

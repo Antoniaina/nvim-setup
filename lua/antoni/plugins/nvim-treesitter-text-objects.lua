@@ -3,6 +3,9 @@ return {
 	lazy = true,
 	config = function()
 		require("nvim-treesitter.configs").setup({
+			ensure_installed = {
+				"svelte", "html", "css", "javascript", "typescript", "tsx"
+			},
 			textobjects = {
 				select = {
 					enable = true,
